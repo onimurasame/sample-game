@@ -4,7 +4,7 @@ import com.onimurasame.sampler.sample.*
 
 object SampleInfos {
 
-    val allSamples = arrayListOf<SampleInfo>(
+    private val allSamples = arrayListOf<SampleInfo>(
             SampleInfo(ApplicationListenerSample::class.java),
             SampleInfo(GdxGeneratedSample::class.java),
             SampleInfo(InputListeningSample::class.java),
@@ -15,7 +15,8 @@ object SampleInfos {
             SampleInfo(OrthographicCameraSample::class.java),
             SampleInfo(ViewportSample::class.java),
             SampleInfo(SpriteBatchSample::class.java),
-            SampleInfo(ShapeRendererSample::class.java)
+            SampleInfo(ShapeRendererSample::class.java),
+            SampleInfo(BitmapFontSample::class.java)
 
     )
 
