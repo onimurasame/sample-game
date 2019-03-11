@@ -16,7 +16,8 @@ object SampleInfos {
             SampleInfo(ViewportSample::class.java),
             SampleInfo(SpriteBatchSample::class.java),
             SampleInfo(ShapeRendererSample::class.java),
-            SampleInfo(BitmapFontSample::class.java)
+            SampleInfo(BitmapFontSample::class.java),
+            SampleInfo(PoolingSample::class.java)
 
     )
 

@@ -1,8 +1,6 @@
 package com.onimurasame.sampler.desktop
 
-import com.badlogic.gdx.ApplicationListener
 import com.badlogic.gdx.backends.lwjgl.LwjglAWTCanvas
-import com.badlogic.gdx.utils.reflect.ClassReflection
 import com.onimurasame.sampler.common.SampleFactory
 import com.onimurasame.sampler.common.SampleInfos
 import java.awt.BorderLayout
