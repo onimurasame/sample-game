@@ -4,7 +4,7 @@ import com.onimurasame.sampler.sample.*
 
 object SampleInfos {
 
-    private val allSamples = arrayListOf<SampleInfo>(
+    private val allSamples = arrayListOf(
             sampleBase<ApplicationListenerSample>(),
             sampleBase<GdxGeneratedSample>(),
             sampleBase<InputListeningSample>(),
