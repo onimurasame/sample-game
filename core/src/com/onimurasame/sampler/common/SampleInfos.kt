@@ -18,7 +18,8 @@ object SampleInfos {
             sampleBase<ShapeRendererSample>(),
             sampleBase<BitmapFontSample>(),
             sampleBase<PoolingSample>(),
-            sampleBase<AssetManagerSample>()
+            sampleBase<AssetManagerSample>(),
+            sampleBase<TextureAtlasSample>()
 
     )
 
