@@ -5,19 +5,20 @@ import com.onimurasame.sampler.sample.*
 object SampleInfos {
 
     private val allSamples = arrayListOf<SampleInfo>(
-            SampleInfo(ApplicationListenerSample::class.java),
-            SampleInfo(GdxGeneratedSample::class.java),
-            SampleInfo(InputListeningSample::class.java),
-            SampleInfo(InputPollingSample::class.java),
-            SampleInfo(ModuleInfoSample::class.java),
-            SampleInfo(MultiplexerSample::class.java),
-            SampleInfo(ReflectionSample::class.java),
-            SampleInfo(OrthographicCameraSample::class.java),
-            SampleInfo(ViewportSample::class.java),
-            SampleInfo(SpriteBatchSample::class.java),
-            SampleInfo(ShapeRendererSample::class.java),
-            SampleInfo(BitmapFontSample::class.java),
-            SampleInfo(PoolingSample::class.java)
+            sampleBase<ApplicationListenerSample>(),
+            sampleBase<GdxGeneratedSample>(),
+            sampleBase<InputListeningSample>(),
+            sampleBase<InputPollingSample>(),
+            sampleBase<ModuleInfoSample>(),
+            sampleBase<MultiplexerSample>(),
+            sampleBase<ReflectionSample>(),
+            sampleBase<OrthographicCameraSample>(),
+            sampleBase<ViewportSample>(),
+            sampleBase<SpriteBatchSample>(),
+            sampleBase<ShapeRendererSample>(),
+            sampleBase<BitmapFontSample>(),
+            sampleBase<PoolingSample>(),
+            sampleBase<AssetManagerSample>()
 
     )
 
